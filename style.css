@@ -12,3 +12,16 @@ img{
 body{
     background-color: gray;
 }
+
+#lastImg{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#chosenImg{
+    height: 120px;
+    width: 150px;
+   
+}

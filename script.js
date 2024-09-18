@@ -16,8 +16,14 @@ var a15 = 0;
 var a16 = 0;
 var a17 = 0;
 var a18 = 0;
+var chosenImg = 0;
 
 function img1(){
+    if (chosenImg == 0){
+        chosenImg = 1;
+        document.getElementById("chosenImg").src = "img/img1.jpg"
+    }
+
     if (a1 == 0){
         a1 = 1;
         document.getElementById("1").src = "img/black.jpg"
@@ -30,7 +36,13 @@ function img1(){
     }
         
 }
+
 function img2(){
+    if (chosenImg == 0){
+        chosenImg = 1;
+        document.getElementById("chosenImg").src = "img/img2.jpg"
+    }
+
     if (a2 == 0){
         a2 = 1;
         document.getElementById("2").src = "img/black.jpg"
@@ -43,7 +55,13 @@ function img2(){
     }
         
 }
+
 function img3(){
+    if (chosenImg == 0){
+        chosenImg = 1;
+        document.getElementById("chosenImg").src = "img/img3.jpg"
+    }
+
     if (a3 == 0){
         a3 = 1;
         document.getElementById("3").src = "img/black.jpg"
@@ -55,7 +73,13 @@ function img3(){
         console.log('0');
     }
 }
+
 function img4(){
+    if (chosenImg == 0){
+        chosenImg = 1;
+        document.getElementById("chosenImg").src = "img/img11.jpg"
+    }
+
     if (a4 == 0){
         a4 = 1;
         document.getElementById("4").src = "img/black.jpg"
@@ -67,7 +91,13 @@ function img4(){
         console.log('0');
     }
 }
+
 function img5(){
+    if (chosenImg == 0){
+        chosenImg = 1;
+        document.getElementById("chosenImg").src = "img/img12.jpg"
+    }
+    
     if (a5 == 0){
         a5 = 1;
         document.getElementById("5").src = "img/black.jpg"
@@ -79,7 +109,13 @@ function img5(){
         console.log('0');
     }
 }
+
 function img6(){
+    if (chosenImg == 0){
+        chosenImg = 1;
+        document.getElementById("chosenImg").src = "img/img13.jpg"
+    }
+
     if (a6 == 0){
         a6 = 1;
         document.getElementById("6").src = "img/black.jpg"
@@ -91,7 +127,13 @@ function img6(){
         console.log('0');
     }
 }
+
 function img7(){
+    if (chosenImg == 0){
+        chosenImg = 1;
+        document.getElementById("chosenImg").src = "img/img4.jpg"
+    }
+
     if (a7 == 0){
         a7 = 1;
         document.getElementById("7").src = "img/black.jpg"
@@ -105,6 +147,11 @@ function img7(){
 }
 
 function img8(){
+    if (chosenImg == 0){
+        chosenImg = 1;
+        document.getElementById("chosenImg").src = "img/img5.jpg"
+    }
+
     if (a8 == 0){
         a8 = 1;
         document.getElementById("8").src = "img/black.jpg"
@@ -116,7 +163,13 @@ function img8(){
         console.log('0');
     }
 }
+
 function img9(){
+    if (chosenImg == 0){
+        chosenImg = 1;
+        document.getElementById("chosenImg").src = "img/img6.jpg"
+    }
+
     if (a9 == 0){
         a9 = 1;
         document.getElementById("9").src = "img/black.jpg"
@@ -130,6 +183,11 @@ function img9(){
 }
 
 function img10(){
+    if (chosenImg == 0){
+        chosenImg = 1;
+        document.getElementById("chosenImg").src = "img/img14.jpg"
+    }
+
     if (a10 == 0){
         a10 = 1;
         document.getElementById("10").src = "img/black.jpg"
@@ -141,7 +199,13 @@ function img10(){
         console.log('0');
     }
 }
+
 function img11(){
+    if (chosenImg == 0){
+        chosenImg = 1;
+        document.getElementById("chosenImg").src = "img/img15.jpg"
+    }
+
     if (a11 == 0){
         a11 = 1;
         document.getElementById("11").src = "img/black.jpg"
@@ -153,7 +217,13 @@ function img11(){
         console.log('0');
     }
 }
+
 function img12(){
+    if (chosenImg == 0){
+        chosenImg = 1;
+        document.getElementById("chosenImg").src = "img/img16.jpg"
+    }
+
     if (a12 == 0){
         a12 = 1;
         document.getElementById("12").src = "img/black.jpg"
@@ -165,7 +235,13 @@ function img12(){
         console.log('0');
     }
 }
+
 function img13(){
+    if (chosenImg == 0){
+        chosenImg = 1;
+        document.getElementById("chosenImg").src = "img/img8.jpg"
+    }
+
     if (a13 == 0){
         a13 = 1;
         document.getElementById("13").src = "img/black.jpg"
@@ -177,7 +253,13 @@ function img13(){
         console.log('0');
     }
 }
+
 function img14(){
+    if (chosenImg == 0){
+        chosenImg = 1;
+        document.getElementById("chosenImg").src = "img/img9.jpg"
+    }
+
     if (a14 == 0){
         a14 = 1;
         document.getElementById("14").src = "img/black.jpg"
@@ -189,7 +271,13 @@ function img14(){
         console.log('0');
     }
 }
+
 function img15(){
+    if (chosenImg == 0){
+        chosenImg = 1;
+        document.getElementById("chosenImg").src = "img/img10.jpg"
+    }
+
     if (a15 == 0){
         a15 = 1;
         document.getElementById("15").src = "img/black.jpg"
@@ -201,7 +289,13 @@ function img15(){
         console.log('0');
     }
 }
+
 function img16(){
+    if (chosenImg == 0){
+        chosenImg = 1;
+        document.getElementById("chosenImg").src = "img/img17.jpg"
+    }
+
     if (a16 == 0){
         a16 = 1;
         document.getElementById("16").src = "img/black.jpg"
@@ -213,7 +307,13 @@ function img16(){
         console.log('0');
     }
 }
+
 function img17(){
+    if (chosenImg == 0){
+        chosenImg = 1;
+        document.getElementById("chosenImg").src = "img/img19.jpg"
+    }
+
     if (a17 == 0){
         a17 = 1;
         document.getElementById("17").src = "img/black.jpg"
@@ -225,7 +325,13 @@ function img17(){
         console.log('0');
     }
 }
+
 function img18(){
+    if (chosenImg == 0){
+        chosenImg = 1;
+        document.getElementById("chosenImg").src = "img/img20.jpg"
+    }
+
     if (a18 == 0){
         a18 = 1;
         document.getElementById("18").src = "img/black.jpg"
