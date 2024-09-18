@@ -1,0 +1,14 @@
+img{
+    width: 90px;
+    height: 80px;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+#whole{
+   margin-top: 50px;
+}
+
+body{
+    background-color: gray;
+}
