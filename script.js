@@ -22,6 +22,7 @@ function img1(){
     if (chosenImg == 0){
         chosenImg = 1;
         document.getElementById("chosenImg").src = "img/img1.jpg"
+        return;
     }
 
     if (a1 == 0){
@@ -41,6 +42,7 @@ function img2(){
     if (chosenImg == 0){
         chosenImg = 1;
         document.getElementById("chosenImg").src = "img/img2.jpg"
+        return;
     }
 
     if (a2 == 0){
@@ -60,6 +62,7 @@ function img3(){
     if (chosenImg == 0){
         chosenImg = 1;
         document.getElementById("chosenImg").src = "img/img3.jpg"
+        return;
     }
 
     if (a3 == 0){
@@ -78,6 +81,7 @@ function img4(){
     if (chosenImg == 0){
         chosenImg = 1;
         document.getElementById("chosenImg").src = "img/img11.jpg"
+        return;
     }
 
     if (a4 == 0){
@@ -96,6 +100,7 @@ function img5(){
     if (chosenImg == 0){
         chosenImg = 1;
         document.getElementById("chosenImg").src = "img/img12.jpg"
+        return;
     }
     
     if (a5 == 0){
@@ -114,6 +119,7 @@ function img6(){
     if (chosenImg == 0){
         chosenImg = 1;
         document.getElementById("chosenImg").src = "img/img13.jpg"
+        return;
     }
 
     if (a6 == 0){
@@ -132,6 +138,7 @@ function img7(){
     if (chosenImg == 0){
         chosenImg = 1;
         document.getElementById("chosenImg").src = "img/img4.jpg"
+        return;
     }
 
     if (a7 == 0){
@@ -150,6 +157,7 @@ function img8(){
     if (chosenImg == 0){
         chosenImg = 1;
         document.getElementById("chosenImg").src = "img/img5.jpg"
+        return;
     }
 
     if (a8 == 0){
@@ -168,6 +176,7 @@ function img9(){
     if (chosenImg == 0){
         chosenImg = 1;
         document.getElementById("chosenImg").src = "img/img6.jpg"
+        return;
     }
 
     if (a9 == 0){
@@ -186,6 +195,7 @@ function img10(){
     if (chosenImg == 0){
         chosenImg = 1;
         document.getElementById("chosenImg").src = "img/img14.jpg"
+        return;
     }
 
     if (a10 == 0){
@@ -204,6 +214,7 @@ function img11(){
     if (chosenImg == 0){
         chosenImg = 1;
         document.getElementById("chosenImg").src = "img/img15.jpg"
+        return;
     }
 
     if (a11 == 0){
@@ -222,6 +233,7 @@ function img12(){
     if (chosenImg == 0){
         chosenImg = 1;
         document.getElementById("chosenImg").src = "img/img16.jpg"
+        return;
     }
 
     if (a12 == 0){
@@ -240,6 +252,7 @@ function img13(){
     if (chosenImg == 0){
         chosenImg = 1;
         document.getElementById("chosenImg").src = "img/img8.jpg"
+        return;
     }
 
     if (a13 == 0){
@@ -258,6 +271,7 @@ function img14(){
     if (chosenImg == 0){
         chosenImg = 1;
         document.getElementById("chosenImg").src = "img/img9.jpg"
+        return;
     }
 
     if (a14 == 0){
@@ -276,6 +290,7 @@ function img15(){
     if (chosenImg == 0){
         chosenImg = 1;
         document.getElementById("chosenImg").src = "img/img10.jpg"
+        return;
     }
 
     if (a15 == 0){
@@ -294,6 +309,7 @@ function img16(){
     if (chosenImg == 0){
         chosenImg = 1;
         document.getElementById("chosenImg").src = "img/img17.jpg"
+        return;
     }
 
     if (a16 == 0){
@@ -312,6 +328,7 @@ function img17(){
     if (chosenImg == 0){
         chosenImg = 1;
         document.getElementById("chosenImg").src = "img/img19.jpg"
+        return;
     }
 
     if (a17 == 0){
@@ -330,6 +347,7 @@ function img18(){
     if (chosenImg == 0){
         chosenImg = 1;
         document.getElementById("chosenImg").src = "img/img20.jpg"
+        return;
     }
 
     if (a18 == 0){
