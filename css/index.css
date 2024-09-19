@@ -1,0 +1,43 @@
+.button-custom {
+    background-color: #2c2c2c; /* Dark neutral background */
+    color: #f0f0f0; /* Light text for contrast */
+    border: 1px solid #444; /* Subtle border */
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%; /* Full-width for mobile */
+    max-width: 300px; /* Limit max width on larger screens */
+    margin: 10px auto; /* Center on mobile */
+}
+
+.button-custom:hover {
+    background-color: #3d3d3d; /* Slightly lighter on hover */
+}
+
+.button-custom:active {
+    background-color: #1c1c1c; /* Darken when clicked */
+    transform: scale(0.98); /* Small shrink on press */
+}
+
+.button-custom:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(240, 240, 240, 0.3); /* Light focus ring */
+}
+
+.container{
+    padding-top: 50px;
+}
+
+a{
+    color: rgb(205, 205, 205);
+}
+
+a:hover{
+    color: rgb(205, 205, 205);
+}
+
+body{
+    background-color: gray;
+}

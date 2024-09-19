@@ -1,0 +1,39 @@
+body {
+    background-color: #494747;
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+}
+
+img {
+    width: 90px;
+    height: 80px;
+    margin-top: 5px;
+    border: 1px solid #444; /* Thinner dark border */
+    transition: border-color 0.3s;
+}
+
+img:hover {
+    border-color: #e0e0e0;
+}
+
+#whole {
+    margin-top: 50px;
+}
+
+#lastImg {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#chosenImg {
+    height: 120px;
+    width: 150px;
+    border: 2px solid #e0e0e0; /* Light border for chosen image */
+}
+
+
+.col {
+    padding: 10px;
+}
