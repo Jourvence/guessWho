@@ -1,0 +1,119 @@
+body{
+    background-color: gray;
+    height: 100%;
+    margin: 0;
+}
+
+#whole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+    border: 1px solid orange;
+}
+
+.row{
+    padding: 14px;
+}
+
+.col{
+    padding: 30px;
+}
+
+#colOne{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#colTwo{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#colOne{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#colThree{
+    border-right: 1px solid black;
+}
+
+#colFour{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#colFive{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#colSix{
+    border-right: 1px solid black;
+}
+
+#colSeven{
+ border-bottom: 1px solid black;  
+}
+
+#colEight{
+    border-bottom: 1px solid black;
+}
+
+
+
+/* #one{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+}
+
+#two{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+}
+
+#three{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+}
+
+#four{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+}
+
+#five{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+}
+
+#six{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+}
+
+#seven{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+}
+
+#eight{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+}
+
+#nine{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+} */
