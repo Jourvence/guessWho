@@ -1,8 +1,16 @@
-body{
+html, body{
+    display: block;
+    position: relative;
     background-color: gray;
     height: 100%;
     margin: 0;
 }
+
+body{
+    max-width: 390px;
+}
+
+
 
 #chooser{
     display: flex;
