@@ -4,7 +4,6 @@ html, body{
     background-color: gray;
     height: 100%;
     margin: 0;
-  
 }
 
 body{
@@ -105,59 +104,3 @@ button {
 #colEight{
     border-bottom: 1px solid black;
 }
-
-
-
-/* #one{
-    width: 70px;
-    height: 70px;
-    border: 1px solid black;
-}
-
-#two{
-    width: 70px;
-    height: 70px;
-    border: 1px solid black;
-}
-
-#three{
-    width: 70px;
-    height: 70px;
-    border: 1px solid black;
-}
-
-#four{
-    width: 70px;
-    height: 70px;
-    border: 1px solid black;
-}
-
-#five{
-    width: 70px;
-    height: 70px;
-    border: 1px solid black;
-}
-
-#six{
-    width: 70px;
-    height: 70px;
-    border: 1px solid black;
-}
-
-#seven{
-    width: 70px;
-    height: 70px;
-    border: 1px solid black;
-}
-
-#eight{
-    width: 70px;
-    height: 70px;
-    border: 1px solid black;
-}
-
-#nine{
-    width: 70px;
-    height: 70px;
-    border: 1px solid black;
-} */
