@@ -8,6 +8,7 @@ html, body{
 
 body{
     max-width: 390px;
+    color: white;
 }
 
 
@@ -19,9 +20,32 @@ body{
     padding: 10px;
 }
 
-button{
-    margin: 20px;
-}
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    background-color: #939699;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%; /* Button width will adjust to screen size */
+    max-width: 400px; /* Ensures it's not too wide on larger screens */
+    margin: 15px ; /* Center the button horizontally */
+    display: block; /* Make the button a block-level element */
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    background-color: #1c5985;
+    transform: scale(0.98);
+  }
 
 #whole{
     display: flex;
@@ -29,7 +53,7 @@ button{
     align-items: center;
     height: 100vh;
     flex-direction: row;
-    
+   
 }
 
 .row{
