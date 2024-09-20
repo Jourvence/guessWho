@@ -4,13 +4,24 @@ body{
     margin: 0;
 }
 
+#chooser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+button{
+    margin: 20px;
+}
+
 #whole{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     flex-direction: row;
-    border: 1px solid orange;
+    
 }
 
 .row{
