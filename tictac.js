@@ -154,46 +154,75 @@ function win(){
     var eight = document.getElementById("eight");
     var nine = document.getElementById("nine");
 
-
     // vertical
-    
     if ((one.textContent == two.textContent) && (one.textContent == three.textContent) && (one.textContent == "X" || one.textContent == "O")){
         one.style.color = "green";
         two.style.color = "green";
         three.style.color = "green";
+
+        let elements = document.getElementsByClassName('col');
+        for (let i = 0; i < elements.length; i++) {
+            elements[i].removeAttribute("onclick");
+        }
         return
     }
     else if ((four.textContent == five.textContent) && (four.textContent == six.textContent) && (four.textContent == "X" || four.textContent == "O")){
         four.style.color = "green";
         five.style.color = "green";
         six.style.color = "green";
+
+        let elements = document.getElementsByClassName('col');
+        for (let i = 0; i < elements.length; i++) {
+            elements[i].removeAttribute("onclick");
+        }
         return
+        
     }
     else if ((seven.textContent == eight.textContent) && (seven.textContent == nine.textContent) && (seven.textContent == "X" || seven.textContent == "O")){
         seven.style.color = "green";
         eight.style.color = "green";
         nine.style.color = "green";
+        
+        let elements = document.getElementsByClassName('col');
+        for (let i = 0; i < elements.length; i++) {
+            elements[i].removeAttribute("onclick");
+        }
         return
-    }
     
+    }
     // horizontal
 
     else if ((one.textContent == four.textContent) && (one.textContent == seven.textContent) && (one.textContent == "X" || one.textContent == "O")){
         one.style.color = "green";
         four.style.color = "green";
         seven.style.color = "green";
+
+        let elements = document.getElementsByClassName('col');
+        for (let i = 0; i < elements.length; i++) {
+            elements[i].removeAttribute("onclick");
+        }
         return
     }
     else if ((two.textContent == five.textContent) && (two.textContent == eight.textContent) && (two.textContent == "X" || two.textContent == "O")){
         two.style.color = "green";
         five.style.color = "green";
         eight.style.color = "green";
+
+        let elements = document.getElementsByClassName('col');
+        for (let i = 0; i < elements.length; i++) {
+            elements[i].removeAttribute("onclick");
+        }
         return
     }
     else if ((three.textContent == six.textContent) && (three.textContent == nine.textContent) && (three.textContent == "X" || three.textContent == "O")){
         three.style.color = "green";
         six.style.color = "green";
         nine.style.color = "green";
+
+        let elements = document.getElementsByClassName('col');
+        for (let i = 0; i < elements.length; i++) {
+            elements[i].removeAttribute("onclick");
+        }
         return
     }
     // Two X's
@@ -201,12 +230,22 @@ function win(){
         one.style.color = "green";
         five.style.color = "green";
         nine.style.color = "green";
+
+        let elements = document.getElementsByClassName('col');
+        for (let i = 0; i < elements.length; i++) {
+            elements[i].removeAttribute("onclick");
+        }
         return
     }
     else if ((three.textContent == five.textContent) && (three.textContent == seven.textContent) && (three.textContent == "X" || three.textContent == "O")){
         three.style.color = "green";
         five.style.color = "green";
         seven.style.color = "green";
+
+        let elements = document.getElementsByClassName('col');
+        for (let i = 0; i < elements.length; i++) {
+            elements[i].removeAttribute("onclick");
+        }
         return
     }
 }
