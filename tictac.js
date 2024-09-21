@@ -10,15 +10,19 @@ function chooseO(){
     document.getElementById("chooser").remove();
 }
 
+function changeChosen(){
+    if (chosen == "X")
+        chosen = "O";
+    else
+        chosen = "X";    
+}
+
 function colOne(){
     var one = document.getElementById("one");
     if (chosen != null && one.textContent != "X" && one.textContent != "O"){
         one.textContent = chosen;
         
-        if (chosen == "X")
-            chosen = "O";
-        else
-            chosen = "X";    
+        changeChosen();    
     }
     win();
 }
@@ -28,10 +32,7 @@ function colTwo(){
     if (chosen != null && two.textContent != "X" && two.textContent != "O"){
         two.textContent = chosen;
         
-        if (chosen == "X")
-            chosen = "O";
-        else
-            chosen = "X";    
+        changeChosen();    
     }
     win();
 }
@@ -41,10 +42,7 @@ function colThree(){
     if (chosen != three.textContent != "X" && three.textContent != "O"){
         three.textContent = chosen;
         
-        if (chosen == "X")
-            chosen = "O";
-        else
-            chosen = "X";    
+        changeChosen();    
     }
     win();
 }
@@ -54,10 +52,7 @@ function colFour(){
     if (chosen != null && four.textContent != "X" && four.textContent != "O"){
         four.textContent = chosen;
         
-        if (chosen == "X")
-            chosen = "O";
-        else
-            chosen = "X";
+        changeChosen();
     }
     win();
 }
@@ -67,10 +62,7 @@ function colFive(){
     if (chosen != null && five.textContent != "X" && five.textContent != "O"){
         five.textContent = chosen;
         
-        if (chosen == "X")
-            chosen = "O";
-        else
-            chosen = "X";    
+        changeChosen();    
     }
     win();
 }
@@ -80,10 +72,7 @@ function colSix(){
     if (chosen != null && six.textContent != "X" && six.textContent != "O"){
         six.textContent = chosen;
         
-        if (chosen == "X")
-            chosen = "O";
-        else
-            chosen = "X";    
+        changeChosen();    
     }
     win();
 }
@@ -93,10 +82,7 @@ function colSeven(){
     if (chosen != null && seven.textContent != "X" && seven.textContent != "O"){
         seven.textContent = chosen;
         
-        if (chosen == "X")
-            chosen = "O";
-        else
-            chosen = "X";    
+        changeChosen();    
     }
     win();
 }
@@ -106,10 +92,7 @@ function colEight(){
     if (chosen != null && eight.textContent != "X" && eight.textContent != "O"){
         eight.textContent = chosen;
         
-        if (chosen == "X")
-            chosen = "O";
-        else
-            chosen = "X";    
+        changeChosen();    
     }
     win();
 }
@@ -119,10 +102,7 @@ function colNine(){
     if (chosen != null && nine.textContent != "X" && nine.textContent != "O"){
         nine.textContent = chosen;
         
-        if (chosen == "X")
-            chosen = "O";
-        else
-            chosen = "X";    
+        changeChosen();    
     }
     win();
 }
