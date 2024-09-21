@@ -20,7 +20,6 @@ function colOne(){
         else
             chosen = "X";    
     }
-   
     win();
 }
 
@@ -34,7 +33,6 @@ function colTwo(){
         else
             chosen = "X";    
     }
- 
     win();
 }
 
@@ -48,7 +46,6 @@ function colThree(){
         else
             chosen = "X";    
     }
-  
     win();
 }
 
@@ -174,7 +171,6 @@ function win(){
         return
     }
     // horizontal
-
     else if ((one.textContent == four.textContent) && (one.textContent == seven.textContent) && (one.textContent == "X" || one.textContent == "O")){
         one.style.color = "green";
         four.style.color = "green";
