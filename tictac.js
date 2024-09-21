@@ -127,6 +127,14 @@ function colNine(){
     win();
 }
 
+function removeAttrs(){
+    let elements = document.getElementsByClassName('col');
+    for (let i = 0; i < elements.length; i++) {
+        elements[i].removeAttribute("onclick");
+    }
+    return
+}
+
 function win(){
     var one = document.getElementById("one");
     var two = document.getElementById("two");
@@ -137,7 +145,6 @@ function win(){
     var seven = document.getElementById("seven");
     var eight = document.getElementById("eight");
     var nine = document.getElementById("nine");
-    let elements = document.getElementsByClassName('col');
 
     // vertical
     if ((one.textContent == two.textContent) && (one.textContent == three.textContent) && (one.textContent == "X" || one.textContent == "O")){
@@ -145,9 +152,7 @@ function win(){
         two.style.color = "green";
         three.style.color = "green";
        
-        for (let i = 0; i < elements.length; i++) {
-            elements[i].removeAttribute("onclick");
-        }
+        removeAttrs();
         return
     }
     else if ((four.textContent == five.textContent) && (four.textContent == six.textContent) && (four.textContent == "X" || four.textContent == "O")){
@@ -155,9 +160,7 @@ function win(){
         five.style.color = "green";
         six.style.color = "green";
 
-        for (let i = 0; i < elements.length; i++) {
-            elements[i].removeAttribute("onclick");
-        }
+        removeAttrs();
         return
     }
     else if ((seven.textContent == eight.textContent) && (seven.textContent == nine.textContent) && (seven.textContent == "X" || seven.textContent == "O")){
@@ -165,9 +168,7 @@ function win(){
         eight.style.color = "green";
         nine.style.color = "green";
         
-        for (let i = 0; i < elements.length; i++) {
-            elements[i].removeAttribute("onclick");
-        }
+        removeAttrs();
         return
     }
     // horizontal
@@ -176,9 +177,7 @@ function win(){
         four.style.color = "green";
         seven.style.color = "green";
 
-        for (let i = 0; i < elements.length; i++) {
-            elements[i].removeAttribute("onclick");
-        }
+        removeAttrs();
         return
     }
     else if ((two.textContent == five.textContent) && (two.textContent == eight.textContent) && (two.textContent == "X" || two.textContent == "O")){
@@ -186,9 +185,7 @@ function win(){
         five.style.color = "green";
         eight.style.color = "green";
 
-        for (let i = 0; i < elements.length; i++) {
-            elements[i].removeAttribute("onclick");
-        }
+        removeAttrs();
         return
     }
     else if ((three.textContent == six.textContent) && (three.textContent == nine.textContent) && (three.textContent == "X" || three.textContent == "O")){
@@ -196,9 +193,7 @@ function win(){
         six.style.color = "green";
         nine.style.color = "green";
 
-        for (let i = 0; i < elements.length; i++) {
-            elements[i].removeAttribute("onclick");
-        }
+        removeAttrs();
         return
     }
     // Two X's
@@ -207,9 +202,7 @@ function win(){
         five.style.color = "green";
         nine.style.color = "green";
 
-        for (let i = 0; i < elements.length; i++) {
-            elements[i].removeAttribute("onclick");
-        }
+        removeAttrs();
         return
     }
     else if ((three.textContent == five.textContent) && (three.textContent == seven.textContent) && (three.textContent == "X" || three.textContent == "O")){
@@ -217,9 +210,7 @@ function win(){
         five.style.color = "green";
         seven.style.color = "green";
 
-        for (let i = 0; i < elements.length; i++) {
-            elements[i].removeAttribute("onclick");
-        }
+        removeAttrs();
         return
     }
 }
