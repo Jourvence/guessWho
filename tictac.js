@@ -3,25 +3,12 @@ var chosen = null;
 function chooseX(){
     chosen = "X";
     document.getElementById("chooser").remove();
-    console.log("X");
 }
 
 function chooseO(){
     chosen = "O";
     document.getElementById("chooser").remove();
-    console.log("O");
 }
-
-var one = document.getElementById("one");
-var two = document.getElementById("two");
-var three = document.getElementById("three");
-var four = document.getElementById("four");
-var five = document.getElementById("five");
-var six = document.getElementById("six");
-var seven = document.getElementById("seven");
-var eight = document.getElementById("eight");
-var nine = document.getElementById("nine");
-
 
 function colOne(){
     var one = document.getElementById("one");
@@ -153,14 +140,14 @@ function win(){
     var seven = document.getElementById("seven");
     var eight = document.getElementById("eight");
     var nine = document.getElementById("nine");
+    let elements = document.getElementsByClassName('col');
 
     // vertical
     if ((one.textContent == two.textContent) && (one.textContent == three.textContent) && (one.textContent == "X" || one.textContent == "O")){
         one.style.color = "green";
         two.style.color = "green";
         three.style.color = "green";
-
-        let elements = document.getElementsByClassName('col');
+       
         for (let i = 0; i < elements.length; i++) {
             elements[i].removeAttribute("onclick");
         }
@@ -171,24 +158,20 @@ function win(){
         five.style.color = "green";
         six.style.color = "green";
 
-        let elements = document.getElementsByClassName('col');
         for (let i = 0; i < elements.length; i++) {
             elements[i].removeAttribute("onclick");
         }
         return
-        
     }
     else if ((seven.textContent == eight.textContent) && (seven.textContent == nine.textContent) && (seven.textContent == "X" || seven.textContent == "O")){
         seven.style.color = "green";
         eight.style.color = "green";
         nine.style.color = "green";
         
-        let elements = document.getElementsByClassName('col');
         for (let i = 0; i < elements.length; i++) {
             elements[i].removeAttribute("onclick");
         }
         return
-    
     }
     // horizontal
 
@@ -197,7 +180,6 @@ function win(){
         four.style.color = "green";
         seven.style.color = "green";
 
-        let elements = document.getElementsByClassName('col');
         for (let i = 0; i < elements.length; i++) {
             elements[i].removeAttribute("onclick");
         }
@@ -208,7 +190,6 @@ function win(){
         five.style.color = "green";
         eight.style.color = "green";
 
-        let elements = document.getElementsByClassName('col');
         for (let i = 0; i < elements.length; i++) {
             elements[i].removeAttribute("onclick");
         }
@@ -219,7 +200,6 @@ function win(){
         six.style.color = "green";
         nine.style.color = "green";
 
-        let elements = document.getElementsByClassName('col');
         for (let i = 0; i < elements.length; i++) {
             elements[i].removeAttribute("onclick");
         }
@@ -231,7 +211,6 @@ function win(){
         five.style.color = "green";
         nine.style.color = "green";
 
-        let elements = document.getElementsByClassName('col');
         for (let i = 0; i < elements.length; i++) {
             elements[i].removeAttribute("onclick");
         }
@@ -242,7 +221,6 @@ function win(){
         five.style.color = "green";
         seven.style.color = "green";
 
-        let elements = document.getElementsByClassName('col');
         for (let i = 0; i < elements.length; i++) {
             elements[i].removeAttribute("onclick");
         }
