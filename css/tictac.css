@@ -38,12 +38,12 @@ button {
   }
   
   button:hover {
-    background-color: #2980b9;
+    background-color: #697075;
     transform: scale(1.05);
   }
   
   button:active {
-    background-color: #1c5985;
+    background-color: #393c3e;
     transform: scale(0.98);
   }
 
