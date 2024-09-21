@@ -12,110 +12,201 @@ function chooseO(){
     console.log("O");
 }
 
+var one = document.getElementById("one");
+var two = document.getElementById("two");
+var three = document.getElementById("three");
+var four = document.getElementById("four");
+var five = document.getElementById("five");
+var six = document.getElementById("six");
+var seven = document.getElementById("seven");
+var eight = document.getElementById("eight");
+var nine = document.getElementById("nine");
+
+
 function colOne(){
-    if (chosen != null && document.getElementById("one").textContent != "X" && document.getElementById("one").textContent != "O"){
-        document.getElementById("one").textContent = chosen;
+    var one = document.getElementById("one");
+    if (chosen != null && one.textContent != "X" && one.textContent != "O"){
+        one.textContent = chosen;
         
         if (chosen == "X")
             chosen = "O";
         else
             chosen = "X";    
     }
-    console.log(document.getElementById("one").textContent);
+   
+    win();
 }
 
 function colTwo(){
-    if (chosen != null && document.getElementById("two").textContent != "X" && document.getElementById("two").textContent != "O"){
-        document.getElementById("two").textContent = chosen;
+    var two = document.getElementById("two");
+    if (chosen != null && two.textContent != "X" && two.textContent != "O"){
+        two.textContent = chosen;
         
         if (chosen == "X")
             chosen = "O";
         else
             chosen = "X";    
     }
-    console.log(document.getElementById("two").textContent);
+ 
+    win();
 }
 
 function colThree(){
-    if (chosen != null && document.getElementById("three").textContent != "X" && document.getElementById("three").textContent != "O"){
-        document.getElementById("three").textContent = chosen;
+    var three = document.getElementById("three");
+    if (chosen != three.textContent != "X" && three.textContent != "O"){
+        three.textContent = chosen;
         
         if (chosen == "X")
             chosen = "O";
         else
             chosen = "X";    
     }
-    console.log(document.getElementById("three").textContent);
+  
+    win();
 }
 
 function colFour(){
-    if (chosen != null && document.getElementById("four").textContent != "X" && document.getElementById("four").textContent != "O"){
-        document.getElementById("four").textContent = chosen;
+    var four = document.getElementById("four");
+    if (chosen != null && four.textContent != "X" && four.textContent != "O"){
+        four.textContent = chosen;
         
         if (chosen == "X")
             chosen = "O";
         else
-            chosen = "X";    
+            chosen = "X";
     }
-    console.log(document.getElementById("four").textContent);
+    win();
 }
 
 function colFive(){
-    if (chosen != null && document.getElementById("five").textContent != "X" && document.getElementById("five").textContent != "O"){
-        document.getElementById("five").textContent = chosen;
+    var five = document.getElementById("five");
+    if (chosen != null && five.textContent != "X" && five.textContent != "O"){
+        five.textContent = chosen;
         
         if (chosen == "X")
             chosen = "O";
         else
             chosen = "X";    
     }
-    console.log(document.getElementById("five").textContent);
+    win();
 }
 
 function colSix(){
-    if (chosen != null && document.getElementById("six").textContent != "X" && document.getElementById("six").textContent != "O"){
-        document.getElementById("six").textContent = chosen;
+    var six = document.getElementById("six");
+    if (chosen != null && six.textContent != "X" && six.textContent != "O"){
+        six.textContent = chosen;
         
         if (chosen == "X")
             chosen = "O";
         else
             chosen = "X";    
     }
-    console.log(document.getElementById("six").textContent);
+    win();
 }
 
 function colSeven(){
-    if (chosen != null && document.getElementById("seven").textContent != "X" && document.getElementById("seven").textContent != "O"){
-        document.getElementById("seven").textContent = chosen;
+    var seven = document.getElementById("seven");
+    if (chosen != null && seven.textContent != "X" && seven.textContent != "O"){
+        seven.textContent = chosen;
         
         if (chosen == "X")
             chosen = "O";
         else
             chosen = "X";    
     }
-    console.log(document.getElementById("seven").textContent);
+    win();
 }
 
 function colEight(){
-    if (chosen != null && document.getElementById("eight").textContent != "X" && document.getElementById("eight").textContent != "O"){
-        document.getElementById("eight").textContent = chosen;
+    var eight = document.getElementById("eight");
+    if (chosen != null && eight.textContent != "X" && eight.textContent != "O"){
+        eight.textContent = chosen;
         
         if (chosen == "X")
             chosen = "O";
         else
             chosen = "X";    
     }
-    console.log(document.getElementById("eight").textContent);
+    win();
 }
 
 function colNine(){
-    if (chosen != null && document.getElementById("nine").textContent != "X" && document.getElementById("nine").textContent != "O"){
-        document.getElementById("nine").textContent = chosen;
+    var nine = document.getElementById("nine");
+    if (chosen != null && nine.textContent != "X" && nine.textContent != "O"){
+        nine.textContent = chosen;
         
         if (chosen == "X")
             chosen = "O";
         else
             chosen = "X";    
     }
-    console.log(document.getElementById("nine").textContent);
+    win();
+}
+
+function win(){
+    var one = document.getElementById("one");
+    var two = document.getElementById("two");
+    var three = document.getElementById("three");
+    var four = document.getElementById("four");
+    var five = document.getElementById("five");
+    var six = document.getElementById("six");
+    var seven = document.getElementById("seven");
+    var eight = document.getElementById("eight");
+    var nine = document.getElementById("nine");
+
+
+    // vertical
+    
+    if ((one.textContent == two.textContent) && (one.textContent == three.textContent) && (one.textContent == "X" || one.textContent == "O")){
+        one.style.color = "green";
+        two.style.color = "green";
+        three.style.color = "green";
+        return
+    }
+    else if ((four.textContent == five.textContent) && (four.textContent == six.textContent) && (four.textContent == "X" || four.textContent == "O")){
+        four.style.color = "green";
+        five.style.color = "green";
+        six.style.color = "green";
+        return
+    }
+    else if ((seven.textContent == eight.textContent) && (seven.textContent == nine.textContent) && (seven.textContent == "X" || seven.textContent == "O")){
+        seven.style.color = "green";
+        eight.style.color = "green";
+        nine.style.color = "green";
+        return
+    }
+    
+    // horizontal
+
+    else if ((one.textContent == four.textContent) && (one.textContent == seven.textContent) && (one.textContent == "X" || one.textContent == "O")){
+        one.style.color = "green";
+        four.style.color = "green";
+        seven.style.color = "green";
+        return
+    }
+    else if ((two.textContent == five.textContent) && (two.textContent == eight.textContent) && (two.textContent == "X" || two.textContent == "O")){
+        two.style.color = "green";
+        five.style.color = "green";
+        eight.style.color = "green";
+        return
+    }
+    else if ((three.textContent == six.textContent) && (three.textContent == nine.textContent) && (three.textContent == "X" || three.textContent == "O")){
+        three.style.color = "green";
+        six.style.color = "green";
+        nine.style.color = "green";
+        return
+    }
+    // Two X's
+    else if ((one.textContent == five.textContent) && (one.textContent == nine.textContent) && (one.textContent == "X" || one.textContent == "O")){
+        one.style.color = "green";
+        five.style.color = "green";
+        nine.style.color = "green";
+        return
+    }
+    else if ((three.textContent == five.textContent) && (three.textContent == seven.textContent) && (three.textContent == "X" || three.textContent == "O")){
+        three.style.color = "green";
+        five.style.color = "green";
+        seven.style.color = "green";
+        return
+    }
 }
